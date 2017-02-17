@@ -74,6 +74,7 @@ assets/libs/
 ehthumbs.db
 Icon?
 Thumbs.db
+.env
 *.log
 *.csv
 *.dat
