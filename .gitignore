@@ -1,12 +1,91 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Service (Spring)
+# ================
+.gradle
+*.sw?
+.#*
+*#
+*~
+/build
+/code
+.classpath
+.project
+.settings
+.metadata
+.factorypath
+.recommenders
+bin
+build
+lib/
+target
+.factorypath
+.springBeans
+interpolated*.xml
+dependency-reduced-pom.xml
+build.log
+_site/
+.*.md.html
+manifest.yml
+MANIFEST.MF
+settings.xml
+activemq-data
+overridedb.*
+*.iml
+*.ipr
+*.iws
+.idea
 *.jar
-*.war
-*.ear
+.DS_Store
+.factorypath
+dump.rdb
+transaction-logs
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Client (AngularJS, Bower)
+# =========================
+/build/
+/benchpress-build/
+.DS_Store
+gen_docs.disable
+test.disable
+regression/temp*.html
+performance/temp*.html
+.idea/workspace.xml
+*~
+*.swp
+angular.js.tmproj
+/node_modules/
+bower_components/
+angular.xcodeproj
+.idea
+*.iml
+.agignore
+.lvimrc
+libpeerconnection.log
+npm-debug.log
+/tmp/
+/scripts/bower/bower-*
+.vscode
+*.log
+*.stackdump
+assets/libs/
+
+# Operating System and General
+# ============================
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.tmp
+*.bak
+*.swp
+logs/
+build/
+
+# IntelliJ
+# ========
+*.iml
